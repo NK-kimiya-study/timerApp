@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+    background-color: black;
+}
+
+#alarm-area {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#control-btn-area {
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#control-btn-area button {
+    display: block;
+    width: 150px;
+    margin-top: 30px;
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#timeInput {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    height: 50px;
+    font-size: 20px;
+}
+
+label {
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+#timer {
+    text-align: center;
+    font-size: 100px !important;
+    color: white;
+}
